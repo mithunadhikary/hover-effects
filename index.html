@@ -2,10 +2,187 @@
 <html>
 <head>
 	<title>Css3 Hover Effects</title>
+	<link rel=stylesheet href="css/bootstrap.min.css">
+	<link rel=stylesheet href="css/style.css">
 </head>
 <body>
 
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+					<h1>Hover Effects</h1>
+				</div>
+			</div>
+		</div>
+
+		<div class="grid">
+			<!-- Option 1 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">	
+			  <div class="option-1">			
+				  <ico class="btn-upload"><n></n></ico>
+				  <ico class="btn-download"><n></n></ico>
+				  <ico class="btn-list"><n></n></ico>
+				  <ico class="btn-halo"><n></n></ico>	
+			  </div>			
+			</div>
+			<!-- Option 1 End -->
+
+			<!-- Option 2 Start -->
+
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">	
+			  <div class="option-2">
+			  	<div class="option-2-hover"></div>
+			  </div>
+			</div>
+
+			<!-- Option 2 End -->
+
+			<!-- Option 3 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">
+				<div class="option-3">
+					<a href="#" class="option-3-hover photo">
+					    <img src="https://s-media-cache-ak0.pinimg.com/736x/06/d1/5f/06d15fc8a69e2ab67143e5357a4184d7.jpg" />
+					  <div class="glow-wrap">
+					    <i class="glow"></i>
+					  </div>
+					</a>
+				</div>
+			</div>
+			<!-- Option 3 End -->
+
+			<!-- Option 4 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">
+
+				<div class=" option-4-hover">
+				    <div class="blocks">
+				      <div class="block">
+				        <div class="overlay">
+				          <img src="http://drh.img.digitalriver.com/DRHM/Storefront/Site/atvi/cm/images/site/play-button-overlay.png" alt="Play" />
+				        </div>
+				        <img src="http://illusion.scene360.com/wp-content/uploads/2014/10/computergraphics-album-covers-2014-15.jpg" alt="Image" />
+				      </div>
+
+				    </div>
+				  </div>
+
+			</div>
+			<!-- Option 4 End -->
+
+			<!-- Option 5 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">
+
+				<div class="option-5">
+					<ul>  
+					  <li>
+					    <button></button>
+					  </li>
+					</ul>
+				</div>
+
+			</div>
+			<!-- Option 5 End -->
+
+			<!-- Option 6 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">
+				<div class="option-6">
+					<a href="#" class="card card-1 stacked--left">
+			            <div class="content">
+			                <code class="title">.stacked--left</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-2 stacked--right">
+			            <div class="content">
+			                <code class="title">.stacked--right</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-3 stacked--up">
+			            <div class="content">
+			                <code class="title">.stacked--up</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-4 stacked--down">
+			            <div class="content">
+			                <code class="title">.stacked--down</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-5 stacked--up-left">
+			            <div class="content">
+			                <code class="title">.stacked--up-left</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-6 stacked--up-right">
+			            <div class="content">
+			                <code class="title">.stacked--up-right</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-7 stacked--down-left">
+			            <div class="content">
+			                <code class="title">.stacked--down-left</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-8 stacked--down-right">
+			            <div class="content">
+			                <code class="title">.stacked--down-right</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-9 stacked--fan-left">
+			            <div class="content">
+			                <code class="title">.stacked--fan-left</code>
+			            </div>
+			        </a>
+
+			        <a href="#" class="card card-10 stacked--fan-right">
+			            <div class="content">
+			                <code class="title">.stacked--fan-right</code>
+			            </div>
+			        </a>
+
+				</div>
+			</div>
+			<!-- Option 6 End -->
+
+			<!-- Option 7 Start -->
+			<div class="col-xl-3 col-lg-4 col-md-4 col-12 grid-item option">
+				<div class="option-7">
+					<div class="box shadow">
+					  <div class="circle"></div>
+					</div>
+					<div class="box shadow">
+					  <div class="circle"></div>
+					</div>
+					<div class="box shadow">
+					  <div class="circle"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Option 7 End -->
+
+		</div>
+
+	</div>
+	<script
+  src="js/plugins/jquery-3.3.1.min.js"></script>
 	
+	<script src='js/plugins/TweenMax.min.js'></script>
+	<script  src="js/option-5.js"></script>
+
+	<script src="js/plugins/masonry.pkgd.min.js"></script>
+	<script>
+		$('.grid').masonry({
+		  // options
+		  itemSelector: '.grid-item'
+		});
+	</script>
 
 </body>
 </html>

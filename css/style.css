@@ -929,13 +929,13 @@ div.option-2-hover:hover:after {
 /* Option 7 Start */
 .option-7 .box {
   width: 25%;
-  min-width: 250px;
+  min-width: 100%;
   display: block;
   height: 50px;
   position: relative;
   border-radius: 5px;
   background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
-  margin-bottom: 40px;
+  margin-top: 20px;
   padding: 15px 25px 0 40px;
   color: darkslategray;
   box-shadow: 1px 2px 1px -1px #777;
@@ -982,12 +982,1037 @@ div.option-2-hover:hover:after {
 }
 /* Option 7 End */
 
+/* Option 8 Start */
+.option-8 section {
+  height: 140px;
+  width: 94%;
+  box-shadow: 0px 0px 50px -5px rgba(0, 0, 0, 0.75);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 0px;
+}
+.option-8 section a {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}
+.option-8 section a:after, 
+.option-8 section a:before {
+  content: '';
+}
+.option-8 section.head {
+  background-color: #c7d1cc;
+  position: relative;
+  z-index: 10;
+}
+.option-8 section.head a {
+  width: 100%;
+  height: 78px;
+  line-height: 78px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-top: -39px;
+  font-weight: 200;
+  color: #BABABA;
+  -webkit-transition: all 2s cubic-bezier(0.21, 1, 0.84, 1.01);
+  -moz-transition: all 2s cubic-bezier(0.21, 1, 0.84, 1.01);
+  transition: all 2s cubic-bezier(0.21, 1, 0.84, 1.01);
+}
+.option-8 section.head a:before, 
+.option-8 section.head a:after {
+  color: #000;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: none;
+  display: block;
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  transition: inherit;
+}
+.option-8 section.head a:before {
+  content: attr(data-bf);
+  position: absolute;
+  top: -28px;
+  left: 15px;
+}
+.option-8 section.head a:after {
+  content: attr(data-af);
+  position: absolute;
+  right: 50px;
+  bottom: -30px;
+}
+.option-8 section.head a:hover {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.option-8 section.head a:hover:before {
+  -webkit-transform: scale(1.2) translate(5px, -15px);
+  -moz-transform: scale(1.2) translate(5px, -15px);
+  -ms-transform: scale(1.2) translate(5px, -15px);
+  -o-transform: scale(1.2) translate(5px, -15px);
+  transform: scale(1.2) translate(5px, -15px);
+}
+.option-8 section.head a:hover:after {
+  -webkit-transform: scale(1.2) translate(25px, 15px);
+  -moz-transform: scale(1.2) translate(25px, 15px);
+  -ms-transform: scale(1.2) translate(25px, 15px);
+  -o-transform: scale(1.2) translate(25px, 15px);
+  transform: scale(1.2) translate(25px, 15px);
+}
+.option-8 section.p10 {
+  background: transparent;
+  height: 70px;
+  line-height: 70px;
+}
+.option-8 section.p10 a {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  font-size:24px;
+}
+.option-8 section.p10 a:before, .option-8 section.p10 a:after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-color: #FF0000;
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+  -moz-transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+  transition: all 0.5s cubic-bezier(1, 0.2, 0.26, 0.7);
+  -webkit-transform: translate(0px, 0px) scale(0.8);
+  -moz-transform: translate(0px, 0px) scale(0.8);
+  -ms-transform: translate(0px, 0px) scale(0.8);
+  -o-transform: translate(0px, 0px) scale(0.8);
+  transform: translate(0px, 0px) scale(0.8);
+  opacity: 0;
+}
+.option-8 section.p10 a:before {
+  left: 0;
+  bottom: 0;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+.option-8 section.p10 a:after {
+  top: 0;
+  right: 0;
+  border-top-width: 1px;
+  border-right-width: 1px;
+}
+.option-8 section.p10 a:hover:before, .option-8 section.p10 a:hover:after {
+  -webkit-transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+  -moz-transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+  transition: all 2s cubic-bezier(0.14, 1.13, 0, 0.91);
+  opacity: 1;
+}
+.option-8 section.p10 a:hover:before {
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  transform: translate(0px, 0px) scale(1);
+  border-bottom-width: 12px;
+  border-left-width: 12px;
+}
+.option-8 section.p10 a:hover:after {
+  -webkit-transform: translate(0px, 0px) scale(1);
+  -moz-transform: translate(0px, 0px) scale(1);
+  -ms-transform: translate(0px, 0px) scale(1);
+  -o-transform: translate(0px, 0px) scale(1);
+  transform: translate(0px, 0px) scale(1);
+  border-top-width: 12px;
+  border-right-width: 12px;
+}
+.option-8 section.p11 {
+  background: #d6dbaa;
+  height: 90px;
+  line-height: 70px;
+}
+.option-8 section.p11 a {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.option-8 section.p11 a:before, section.p11 a:after {
+  content: '';
+  position: absolute;
+  height: 7px;
+  left: 0;
+  right: 0;
+  -webkit-transform: translate(0, 30px);
+  -moz-transform: translate(0, 30px);
+  -ms-transform: translate(0, 30px);
+  -o-transform: translate(0, 30px);
+  transform: translate(0, 30px);
+  -webkit-transition: 0.3s all;
+  -moz-transition: 0.3s all;
+  transition: 0.3s all;
+  opacity: 0;
+}
+.option-8 section.p11 a:before {
+  bottom: -6px;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAAAHBAMAAACcthkwAAAAD1BMVEUAAAD/vwD/vwD/vwD/vwBYa2Z+AAAABHRSTlMAwEAw9JyPcwAAAC1JREFUOMtjcMEETgwQwIJFTgEiRWdto64cdeWoK8l2pSAmEIZKMWKRMxgQbQCWVcU78Wj7hwAAAABJRU5ErkJggg==);
+  -webkit-animation: road 0.9s infinite linear;
+  -moz-animation: road 0.9s infinite linear;
+  animation: road 0.9s infinite linear;
+}
+.option-8 section.p11 a:after {
+  bottom: 8px;
+  background-color: #FFBF00;
+}
+.option-8 section.p11 a:hover:before, section.p11 a:hover:after {
+  -webkit-transform: translate(0, 0px);
+  -moz-transform: translate(0, 0px);
+  -ms-transform: translate(0, 0px);
+  -o-transform: translate(0, 0px);
+  transform: translate(0, 0px);
+  opacity: 1;
+}
+.option-8 section.p15 {
+    background: transparent;
+    height: 70px;
+    line-height: 78px;
+}
+.option-8 section.p15 a {
+    width: 50%;
+    line-height: 58px;
+    position: absolute;
+    left: 25%;
+}
+.option-8 section.p15 a .in, .option-8 section.p15 a .t1:before,
+.option-8 section.p15 a .t1:after, 
+.option-8 section.p15 a .t2:before,
+.option-8 section.p15 a .t2:after {
+  content: '';
+  width: 0px;
+  height: 19px;
+  background-color: #fff;
+  position: absolute;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.46, 1.45);
+  -moz-transition-timing-function: cubic-bezier(0.17, 0.67, 0.46, 1.45);
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.46, 1.45);
+}
+.option-8 section.p15 a .t1 {
+  height: 60px;
+  width: 48px;
+  top: 0%;
+  left: -48px;
+  position: absolute;
+}
+.option-8 section.p15 a .t1 *,
+.option-8 section.p15 a .t1:before,
+.option-8 section.p15 a .t1:after {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
+}
+.option-8 section.p15 a .t1:before {
+  right: 0;
+}
+.option-8 section.p15 a .t1 .in {
+  right: 0;
+  top: 22px;
+}
+.option-8 section.p15 a .t1:after {
+  right: 0;
+  top: 45px;
+}
+.option-8 section.p15 a .t2 {
+  height: 60px;
+  width: 48px;
+  top: 0%;
+  right: -48px;
+  position: absolute;
+}
+.option-8 section.p15 a .t2 *, .option-8 section.p15 a .t2:before, 
+.option-8 section.p15 a .t2:after {
+  -webkit-clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+}
+.option-8 section.p15 a .t2:before {
+  left: 0;
+}
+.option-8 section.p15 a .t2 .in {
+  left: 0;
+  top: 22px;
+}
+.option-8 section.p15 a .t2:after {
+  left: 0;
+  top: 45px;
+}
+.option-8 section.p15 a .t1:before, 
+.option-8 section.p15 a .t2:before {
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.option-8 section.p15 a .t1 .in, 
+.option-8 section.p15 a .t2 .in {
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.option-8 section.p15 a .t1:after,
+.option-8 section.p15 a .t2:after {
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.option-8 section.p15 a:hover .in,
+.option-8 section.p15 a:hover .t1:before,
+.option-8 section.p15 a:hover .t1:after,
+.option-8 section.p15 a:hover .t2:before,
+.option-8 section.p15 a:hover .t2:after {
+  width: 48px;
+}
+.option-8 section.p15 a:hover .t1:before,
+.option-8 section.p15 a:hover .t2:before {
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.option-8 section.p15 a:hover .t1 .in,
+.option-8 section.p15 a:hover .t2 .in {
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.option-8 section.p15 a:hover .t1:after,
+.option-8 section.p15 a:hover .t2:after {
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.option-8 section.p19 {
+  background: #ddb5ce;
+}
+.option-8 section.p19 a {
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -165px;
+  margin-top: -33px;
+  font-weight: lighter;
+}
+.option-8 section.p19 a:before,
+.option-8 section.p19 a:after {
+  content: '';
+  position: absolute;
+  width: 13%;
+  height: 13px;
+  background-color: #000;
+  -webkit-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  opacity: 0;
+}
+.option-8 section.p19 a:before {
+  top: -20px;
+  right: 0;
+}
+.option-8 section.p19 a:after {
+  bottom: -35px;
+  left: 0;
+}
+.option-8 section.p19 a .s1 {
+  position: absolute;
+  background-color: #26C9FF;
+  width: 0;
+  height: 13px;
+  top: -20px;
+  box-shadow: 0px 0px 0px #26C9FF;
+  right: 13%;
+  border-radius: 20px 10px 10px 20px;
+  -webkit-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+}
+.option-8 section.p19 a .s1:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1%;
+  right: 0;
+  bottom: -15%;
+  box-shadow: 0px 0px 0px #26C9FF;
+  border-radius: 20px 10px 10px 20px;
+}
+.option-8 section.p19 a .s1:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0%;
+  top: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  -webkit-filter: blur(3px);
+  filter: blur(1px);
+  box-shadow: inset 0px 0px 10px #26C9FF;
+  border-radius: 20px 10px 10px 20px;
+}
+.option-8 section.p19 a .s2 {
+  position: absolute;
+  background-color: #FF0000;
+  width: 0;
+  height: 13px;
+  bottom: -35px;
+  box-shadow: 0px 0px 0px #FF0000;
+  left: 13%;
+  border-radius: 10px 20px 20px 10px;
+  z-index: 1000;
+  -webkit-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  -moz-transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+  transition: all 0.3s cubic-bezier(0.17, 0.67, 0.46, 0.97);
+}
+.option-8 section.p19 a .s2:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1%;
+  right: 0;
+  bottom: -15%;
+  box-shadow: 0px 0px 0px #FF0000;
+  border-radius: 10px 20px 20px 10px;
+}
+.option-8 section.p19 a .s2:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0%;
+  top: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  -webkit-filter: blur(3px);
+  filter: blur(1px);
+  box-shadow: inset 0px 0px 10px #FF0000;
+  border-radius: 10px 20px 20px 10px;
+}
+.option-8 section.p19 a:hover:before {
+  opacity: 1;
+}
+.option-8 section.p19 a:hover:after {
+  opacity: 1;
+}
+.option-8 section.p19 a:hover .s1 {
+  width: 87%;
+  box-shadow: 0px 0px 30px #26C9FF;
+  top: -20px;
+}
+.option-8 section.p19 a:hover .s1:before {
+  box-shadow: 0px 0px 70px #26C9FF;
+}
+.option-8 section.p19 a:hover .s2 {
+  width: 87%;
+  box-shadow: 0px 0px 30px #FF0000;
+  bottom: -35px;
+}
+.option-8 section.p19 a:hover .s2:before {
+  box-shadow: 0px 0px 70px #FF0000;
+}
+
+@-webkit-keyframes voavoa {
+  from {
+    -webkit-clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+}
+@-moz-keyframes voavoa {
+  from {
+    -webkit-clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+}
+@keyframes voavoa {
+  from {
+    -webkit-clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 35%, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+}
+@-webkit-keyframes voavoa2 {
+  from {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+  }
+}
+@-moz-keyframes voavoa2 {
+  from {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+  }
+}
+@keyframes voavoa2 {
+  from {
+    -webkit-clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+    clip-path: polygon(13% 0, 100% 43%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+    clip-path: polygon(0 45%, 100% 43%, 100% 100%);
+  }
+}
+@-webkit-keyframes rodarodajequiti {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rodarodajequiti {
+  from {
+    -moz-transform: rotate(0);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes rodarodajequiti {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes chicaum {
+  from {
+    -webkit-transform: translate(0px);
+  }
+  to {
+    -webkit-transform: translate(-886px);
+  }
+}
+@-moz-keyframes chicaum {
+  from {
+    -moz-transform: translate(0px);
+  }
+  to {
+    -moz-transform: translate(-886px);
+  }
+}
+@keyframes chicaum {
+  from {
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    transform: translate(0px);
+  }
+  to {
+    -webkit-transform: translate(-886px);
+    -moz-transform: translate(-886px);
+    -ms-transform: translate(-886px);
+    -o-transform: translate(-886px);
+    transform: translate(-886px);
+  }
+}
+@-webkit-keyframes chicadois {
+  from {
+    -webkit-transform: translate(0px);
+  }
+  to {
+    -webkit-transform: translate(-841px);
+  }
+}
+@-moz-keyframes chicadois {
+  from {
+    -moz-transform: translate(0px);
+  }
+  to {
+    -moz-transform: translate(-841px);
+  }
+}
+@keyframes chicadois {
+  from {
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    transform: translate(0px);
+  }
+  to {
+    -webkit-transform: translate(-841px);
+    -moz-transform: translate(-841px);
+    -ms-transform: translate(-841px);
+    -o-transform: translate(-841px);
+    transform: translate(-841px);
+  }
+}
+@-webkit-keyframes montanhaDaAlegria {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@-moz-keyframes montanhaDaAlegria {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@keyframes montanhaDaAlegria {
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@-webkit-keyframes montanhaDaTristeza {
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@-moz-keyframes montanhaDaTristeza {
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@keyframes montanhaDaTristeza {
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+    clip-path: polygon(0% 100%, 159px 188px, 171px 185px, 174px 185px, 184px 182px, 191px 183px, 199px 179px, 202px 176px, 219px 158px, 225px 175px, 230px 172px, 245px 179px, 283px 184px, 293px 187px, 311px 192px, 318px 191px, 357px 194px, 100% 100%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+    clip-path: polygon(0% 100%, 153px 176px, 165px 174px, 167px 173px, 187px 155px, 193px 161px, 200px 147px, 203px 149px, 220px 129px, 226px 143px, 231px 140px, 240px 154px, 246px 147px, 285px 171px, 295px 174px, 313px 178px, 329px 182px, 100% 100%);
+  }
+  50% {
+    -webkit-clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+    clip-path: polygon(0% 100%, 106px 149px, 145px 128px, 158px 119px, 178px 101px, 184px 107px, 190px 92px, 201px 87px, 217px 66px, 223px 81px, 228px 78px, 244px 94px, 251px 87px, 289px 113px, 302px 125px, 316px 140px, 346px 163px, 100% 100%);
+  }
+  25% {
+    -webkit-clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+    clip-path: polygon(0% 100%, 82px 132px, 117px 97px, 131px 93px, 172px 65px, 179px 76px, 185px 77px, 199px 68px, 217px 44px, 223px 58px, 228px 55px, 244px 60px, 253px 42px, 295px 79px, 314px 87px, 331px 88px, 376px 145px, 100% 100%);
+  }
+  0% {
+    -webkit-clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+    clip-path: polygon(0% 100%, 49px 99px, 100px 53px, 113px 68px, 147px 29px, 153px 40px, 160px 42px, 187px 63px, 209px 11px, 215px 25px, 219px 21px, 244px 61px, 264px 0px, 311px 60px, 330px 79px, 349px 65px, 398px 107px, 100% 100%);
+  }
+}
+@-webkit-keyframes sobeSol {
+  0% {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    top: 300%;
+    opacity: 0;
+    -webkit-filter: blur(30px);
+  }
+  15% {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+    top: 240%;
+    opacity: 1;
+    -webkit-filter: blur(20px);
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    top: -300%;
+    opacity: 1;
+    -webkit-filter: blur(20px);
+  }
+}
+@-moz-keyframes sobeSol {
+  0% {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    top: 300%;
+    opacity: 0;
+  }
+  15% {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+    top: 240%;
+    opacity: 1;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    top: -300%;
+    opacity: 1;
+  }
+}
+@keyframes sobeSol {
+  0% {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    top: 300%;
+    opacity: 0;
+    -webkit-filter: blur(30px);
+    filter: blur(30px);
+  }
+  15% {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -60px;
+    top: 240%;
+    opacity: 1;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    top: -300%;
+    opacity: 1;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+  }
+}
+@-webkit-keyframes road {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -330px;
+  }
+}
+@-moz-keyframes road {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -330px;
+  }
+}
+@keyframes road {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -330px;
+  }
+}
+/* Option 8 End */
+
+/* Option 9 Start */
+
+body .option-9 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -moz-perspective: 1000px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+.option-9 .render {
+  align-self: center;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -moz-transform: rotateX(50deg) rotateZ(1deg);
+  -webkit-transform: rotateX(50deg) rotateZ(1deg);
+  transform: rotateX(50deg) rotateZ(1deg);
+  font-family: serif;
+  font-weight: 700;
+  font-size: 12em;
+  color: #f5f5f5;
+  text-shadow: white 0.006em 0.006em 0.007em, #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px, #9c9c9c 1px 3px 1px, #9c9c9c 1px 4px 1px, #9c9c9c 1px 5px 1px, #9c9c9c 1px 6px 1px, #9c9c9c 1px 7px 1px, #9c9c9c 1px 8px 1px, #9c9c9c 1px 9px 1px, #9c9c9c 1px 10px 1px, #9c9c9c 1px 11px 1px, #9c9c9c 1px 12px 1px, rgba(16, 16, 16, 0.4) 1px 18px 6px, rgba(16, 16, 16, 0.2) 1px 22px 10px, rgba(16, 16, 16, 0.2) 1px 26px 35px, rgba(16, 16, 16, 0.4) 1px 30px 65px, white -0.15em -0.1em 100px;
+}
+.option-9 .render:hover {
+  margin-top: -20px;
+  text-shadow: white 0.006em 0.006em 0.007em, #9c9c9c 1px 1px 1px, #9c9c9c 1px 2px 1px, #9c9c9c 1px 3px 1px, #9c9c9c 1px 4px 1px, #9c9c9c 1px 5px 1px, #9c9c9c 1px 6px 1px, #9c9c9c 1px 7px 1px, #9c9c9c 1px 8px 1px, #9c9c9c 1px 9px 1px, #9c9c9c 1px 10px 1px, #9c9c9c 1px 11px 1px, #9c9c9c 1px 12px 1px, rgba(16, 16, 16, 0.4) 1px 38px 26px, rgba(16, 16, 16, 0.2) 1px 42px 30px, rgba(16, 16, 16, 0.2) 1px 46px 65px, rgba(16, 16, 16, 0.4) 1px 50px 95px, white -0.15em -0.1em 100px;
+}
+
+/* Option 9 End */
+
+/* Option 10 Start */
+
+
+.option-10 .Project {
+    position: relative;
+    top: 35px;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 50px;
+    cursor: pointer;
+}
+.option-10 .Project:hover .imgMasked {
+  -webkit-clip-path: circle(100px at center);
+          clip-path: circle(100px at center);
+}
+.option-10 .Project:hover .Project-hail {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+.option-10 .Project:hover .Project-hail2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 80px solid #fff4e6;
+  opacity: 0;
+}
+.option-10 .Project:hover .Project-name {
+  left: 200%;
+  opacity: 1;
+}
+.option-10 .Project:hover .Project-name:before {
+  width: 100%;
+}
+.option-10 .Project-hail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #f0544f;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  transition: 0.5s;
+  opacity: 0.2;
+}
+.option-10 .Project-hail2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 0;
+  transition: 0.7s;
+  border: 22px solid #f0544f;
+  border-radius: 20px;
+  pointer-events: none;
+}
+.option-10 .imgMasked {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  height: 200px;
+  -webkit-clip-path: circle(20px at center);
+          clip-path: circle(20px at center);
+  transition: 0.5s;
+  pointer-events: none;
+}
+.option-10 .Project-name {
+  position: absolute;
+  max-width: 600px;
+  min-width: 150px;
+  left: 0;
+  top: 150%;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #000;
+  padding: 3px 6px;
+  z-index: 2;
+  opacity: 0;
+}
+.option-10 .Project-name:before {
+  content: '';
+  width: 0;
+  height: 100%;
+  background-color: #f0544f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+
+/* Option 10 End */
+
 
 .option-2{
 	margin-top: 20px;
 }
 
-.option-6{
+.option-6,
+.option-8{
 	margin-top: 15px;
 }
 
@@ -1008,26 +2033,30 @@ h1{
     padding-bottom: 20px;
 }
 
-.option:nth-child(6n+1){
+.option:nth-child(7n+1){
 	background: #FFCDD2;
 }
 
-.option:nth-child(6n+2){
+.option:nth-child(7n+2){
 	background: #E1BEE7;
 }
 
-.option:nth-child(6n+3){
+.option:nth-child(7n+3){
 	background: #BBDEFB;
 }
 
-.option:nth-child(6n+4){
+.option:nth-child(7n+4){
 	background: #F0F4C3;	
 }
 
-.option:nth-child(6n+5){
+.option:nth-child(7n+5){
 	background: #FFCC80;
 }
 
-.option:nth-child(6n+6){
+.option:nth-child(7n+6){
 	background: #FFAB91;
+}
+
+.option:nth-child(7n+7){
+  background: #C8E6C9;
 }
